@@ -12,7 +12,7 @@ function Header() {
 
 
       <div>
-        <ul className='hidden md:flex md: md:text-xl'>
+        <ul className='hidden md:flex lg:text-md'>
           <li className='nav-menu'>About</li>
           <li className='nav-menu'>Gallery</li>
           <li className='nav-menu'>Services</li>
