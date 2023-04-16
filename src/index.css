@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    h1{
+        font-family: 'changa one';
+    }
+}
+@layer components{
+    header .nav-menu{
+        @apply px-4 cursor-pointer hover:text-neutral-600
+         transition-all duration-200
+    }
+    .hero-section{
+        background: url(../src/assets/hero-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
