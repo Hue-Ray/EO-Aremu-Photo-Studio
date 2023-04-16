@@ -17,7 +17,7 @@ import BdImg6 from '../../assets/b-6.png';
 function Gallery() {
   return (
     <div>
-        <section  className='gallery py-4 flex-col justify-center text-center bg-[#1E1E1E] text-white'>
+        <section id='gallery'  className='transition-all duration-200 gallery py-4 flex-col justify-center text-center bg-[#1E1E1E] text-white'>
             <h1 className='heading'>Gallery</h1>
             <div>
                 <p className='text-xs font-light text-left pl-6 md:text-sm lg:pl-16 xl:pl-32'>Weddings</p>
