@@ -6,15 +6,23 @@
     h1{
         font-family: 'changa one';
     }
+    
 }
 @layer components{
     header .nav-menu{
         @apply px-4 cursor-pointer hover:text-neutral-600
-         transition-all duration-200
+         transition-all duration-200;
     }
     .hero-section{
-        background: url(../src/assets/hero-bg.png);
+        background: url(../src/assets/hero-bg-md.png);
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: cover;
+    }
+    .heading{
+        @apply text-[24px] md:text-4xl;
+    }
+    .btn{
+        @apply mt-1 cursor-pointer bg-[#A73A2C] p-2 w-40 rounded-lg
+        text-xs md:text-sm lg:text-sm;
     }
 }
