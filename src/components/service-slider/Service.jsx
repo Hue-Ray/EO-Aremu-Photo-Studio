@@ -6,7 +6,7 @@ import serviceImage3 from '../../assets/o-s.png';
 function Service() {
   return (
     <div>
-        <section>
+        <section id='services'>
             <div className='flex-col text-center py-4'>
                 <h1 className='heading'>Services</h1>
 
@@ -26,9 +26,11 @@ function Service() {
                     <img className='lg:hover:w-[182px] transition-all duration-900' src={serviceImage3} alt="wedding service image" />
                    </div>
                 </div>
-                  <button className='btn text-white'>
+                 <a href='#contact'>
+                 <button className='btn text-white'>
                     Reach Out
                    </button>
+                 </a>
             </div>
         </section>
     </div>

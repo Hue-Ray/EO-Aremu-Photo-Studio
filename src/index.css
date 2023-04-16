@@ -25,4 +25,7 @@
         @apply mt-1 cursor-pointer bg-[#A73A2C] p-2 w-40 rounded-lg
         text-xs md:text-sm lg:text-sm;
     }
+    .gallery img{
+        @apply p-1
+    }
 }
