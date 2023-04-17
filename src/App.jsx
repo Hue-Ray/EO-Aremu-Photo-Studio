@@ -6,6 +6,7 @@ import Service from './components/service-slider/Service'
 import Gallery from './components/gallery/Gallery'
 import AboutStudio from './components/about-studio/AboutStudio'
 import Contact from './components/contact/Contact'
+import Footer from './components/footer/Footer'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
      <Gallery />
      <AboutStudio />
      <Contact />
+     <Footer />
     </div>
   )
 }
