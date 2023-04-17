@@ -5,14 +5,16 @@ import HeroSection from './components/hero-section/HeroSection'
 import Service from './components/service-slider/Service'
 import Gallery from './components/gallery/Gallery'
 import AboutStudio from './components/about-studio/AboutStudio'
+import Contact from './components/contact/Contact'
 
 function App() {
   return (
     <div className="App">
-     <HeroSection/>  
+     <HeroSection />  
      <Service /> 
      <Gallery />
      <AboutStudio />
+     <Contact />
     </div>
   )
 }

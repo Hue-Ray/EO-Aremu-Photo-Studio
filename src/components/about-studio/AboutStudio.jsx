@@ -9,7 +9,7 @@ function AboutStudio() {
            <div className='flex flex-wrap gap-2 justify-center py-2'>
            <img className='' src={AboutImg} alt="" />
             <div className='flex-col text-center md:text-left md:py-12'>
-                <p className='text-xs md:text-sm w-[40ch] md:w-[60ch]'>
+                <p className='text-sm md:text-sm w-[40ch] md:w-[60ch]'>
                 The studio is owned and managed by Olakunle Odagbodo,
                  a professional photographer who’s passion is to create
                   stunning pictures of very high qualities. EO Aremu Studios 
@@ -18,7 +18,7 @@ function AboutStudio() {
                    wedding pictures, Birthday pictures and event coverage.
                 </p>
                 <div className='py-2'>
-                <a href="">
+                <a href="#services">
                 <button className='btn text-white'>View Services</button>
                 </a>
             </div>
