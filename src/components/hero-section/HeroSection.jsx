@@ -6,8 +6,9 @@ function HeroSection() {
     <div>
         <section id='hero-section' className='hero-section h-[80vh] md:h-[90vh] lg:h[100vh] w-screen'>
             <Header/>
-           <div className='text-white px-4 flex-col  justify-center text-center mt-[20vh] md:mt-[45vh]'>
-           <h1 className='heading'>Your Memories Matters</h1>
+           <div className='text-white px-4 h-screen flex justify-center items-center text-center'>
+            <div className='flex-col'>
+            <h1 className='heading'>Your Memories Matters</h1>
             <h6 className='text-center font-light text-sm md:text-lg md:w-[60ch] md:m-auto'>
             Be it an event,a birthday shoot,
              pre wedding pictures, baby pictures
@@ -17,7 +18,8 @@ function HeroSection() {
             <a href='#gallery'>
             <button className='btn'>View Gallery</button>
             </a>
-           </div>
+            </div>
+          </div>
         </section>
     </div>
   )

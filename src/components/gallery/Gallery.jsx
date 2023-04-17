@@ -17,7 +17,7 @@ import BdImg6 from '../../assets/b-6.png';
 function Gallery() {
   return (
     <div>
-        <section id='gallery'  className='transition-all duration-200 gallery py-4 flex-col justify-center text-center bg-[#1E1E1E] text-white'>
+        <section id='gallery'  className='gallery py-4 flex-col justify-center text-center bg-[#1E1E1E] text-white'>
             <h1 className='heading'>Gallery</h1>
             <div>
                 <p className='text-xs font-light text-left pl-6 md:text-sm lg:pl-16 xl:pl-32'>Weddings</p>
@@ -44,14 +44,17 @@ function Gallery() {
             <div>
             <p className='text-xs font-light text-left pl-6 md:text-sm lg:pl-16 xl:pl-32'>Ocassions</p>
             <div className='p-4 grid grid-cols-2 md:grid-cols-3 place-items-center'>
-                <img src='' alt="" />
-                <img src='' alt="" />
-                <img src='' alt="" />
-                <img src='' alt="" />
-                <img src='' alt="" />
-                <img src='' alt="" />
+                <img src={BdImg1} alt="" />
+                <img src={BdImg2} alt="" />
+                <img src={BdImg3} alt="" />
+                <img src={BdImg4} alt="" />
+                <img src={BdImg5} alt="" />
+                <img src={BdImg6} alt="" />
                 </div>
             </div>
+            <a href='#img-gallery'>
+                <button className='btn'>View More Photos</button>
+            </a>
         </section>
     </div>
   )
