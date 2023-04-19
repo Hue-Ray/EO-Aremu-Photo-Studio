@@ -1,13 +1,13 @@
 import React from 'react'
 
 function Header() {
-  const mobileNav = document.querySelector('.nav-menu');
+  let mobileNav = document.querySelector('.nav-menu');
 
-    const showNav = () => {  
+    let showNav = () => {  
       mobileNav.classList.remove("hide-nav")
  };
 
- const hideNav = () => {
+ let hideNav = () => {
    mobileNav.classList.add("hide-nav")
  };
 
