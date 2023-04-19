@@ -3,7 +3,6 @@ import React from 'react'
 function Header() {
     const navBar = () => {  
       const mobileNav = document.querySelector('.nav-menu');
-      console.log(mobileNav);
       if (mobileNav.style.display === "none"){
         mobileNav.style.display = "block";
       } else {
