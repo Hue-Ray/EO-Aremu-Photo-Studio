@@ -25,11 +25,7 @@
     .gallery img{
         @apply p-1
     }
-    .hide-nav{
+    .nav-menu{
         display: none;
-    }
-    .show-nav{
-        display: block;
-        
     }
 }
