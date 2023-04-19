@@ -24,7 +24,7 @@ function Header() {
         </div>
        </div>
         <nav className='nav-menu flex-col bg-black
-         p-4 h-[40vh] bg-opacity-70 text-center rounded-lg 
+         p-4 h-[40vh] bg-opacity-50 text-center rounded-lg 
          mt-4'>
           <p className='nav-menu-link p-4'><a href="#about">About</a></p>
           <p className='nav-menu-link p-4'><a href="#Services">Services</a></p>
