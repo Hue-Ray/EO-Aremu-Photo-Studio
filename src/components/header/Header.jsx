@@ -1,16 +1,15 @@
 import React from 'react'
 
 function Header() {
-  const closeBtn = document.querySelector('.hide-nav-btn');
   const mobileNav = document.querySelector('.nav-menu');
 
     const showNav = () => {  
       mobileNav.classList.remove("hide-nav")
- }
+ };
 
  const hideNav = () => {
    mobileNav.classList.add("hide-nav")
- }
+ };
 
   return (
     <div>
