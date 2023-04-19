@@ -2,7 +2,6 @@ import React from 'react'
 
 function Header() {
   const closeBtn = document.querySelector('.hide-nav-btn');
-  const showBtn = document.querySelectorAll('.show-nav-btn');
   const mobileNav = document.querySelector('.nav-menu');
 
     const showNav = () => {  
@@ -28,7 +27,7 @@ function Header() {
        </div>
         <nav className='nav-menu hide-nav flex-col bg-black
          p-4 h-[40vh] bg-opacity-70 text-center rounded-lg 
-         mt-4 transition-all duration-[3s]'>
+         mt-4'>
           
         <div onClick={hideNav} className='hide-nav-btn'>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" 
